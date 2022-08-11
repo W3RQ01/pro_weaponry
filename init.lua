@@ -1,5 +1,5 @@
 --Author: W3RQ01
---License: LGPL 2.1
+--License: GPL 3.0
 
 minetest.register_tool("pro_weaponry:handle", {
 	description = "Handle",
