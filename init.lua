@@ -72,7 +72,7 @@ minetest.register_tool("pro_weaponry:longsword_iron", {
 		full_punch_interval = 1,
 		max_drop_level=3,
 		groupcaps={
-			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=120, maxlevel=3},
+			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=105, maxlevel=3},
 		},
 		damage_groups = {fleshy=13},
 	},
