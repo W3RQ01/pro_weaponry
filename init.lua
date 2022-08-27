@@ -35,7 +35,7 @@ minetest.register_craft({
         recipe = {
                 {'','','default:diamond'},
                 {'','default:diamond',''},
-                {'pro_weaponry:handle','',''},
+                {'default:diamond','pro_weaponry:handle','default:diamond'},
 	}
 })
 
@@ -59,7 +59,7 @@ minetest.register_craft({
         recipe = {
                 {'','','default:mese_crystal'},
                 {'','default:mese_crystal',''},
-                {'pro_weaponry:handle','',''},
+                {'default:mese_crystal','pro_weaponry:handle','default:mese_crystal'},
 	}
 })	
 
@@ -83,7 +83,7 @@ minetest.register_craft({
         recipe = {
                 {'','','default:iron_ingot'},
                 {'','default:iron_ingot',''},
-                {'pro_weaponry:handle','',''},
+                {'default:iron_ingot','pro_weaponry:handle','default:iron_ingot'},
 	}
 })	
 
@@ -107,7 +107,7 @@ minetest.register_craft({
         recipe = {
                 {'','','default:cobble'},
                 {'','default:cobble',''},
-                {'pro_weaponry:handle','',''},
+                {'default:cobble','pro_weaponry:handle','default:cobble'},
 	}
 })	
 
