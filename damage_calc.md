@@ -1,4 +1,4 @@
-#Parameters and amount of damage#
+# Parameters and amount of damage
 
 The damage calculation is based on the following parameters:
 - gamemode
@@ -8,7 +8,7 @@ The damage calculation is based on the following parameters:
 The test was run in singleplayer and in multiplayer, both used minetest game as the base game.
 The entity was a cow in both the occasions and the results were the same: 2hp of damage, 1 if spam-clicked.
 
-#Application to the swords#
+# Application to the swords
 
 Since 2hp = hand hit, i'll take a look at the amount of damage that minecraft weapons do and i'll multiply it.
 
