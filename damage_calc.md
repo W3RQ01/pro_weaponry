@@ -10,6 +10,5 @@ The entity was a cow in both the occasions and the results were the same: 2hp of
 
 # Application to the swords
 
-Since 2hp = hand hit, i'll take a look at the amount of damage that minecraft weapons do and i'll multiply it.
-
-more to come
+Since 2hp = hand hit, i'll take a look at the amount of damage that minecraft weapons do and i'll multiply it only for the weapons that have a lower amount of damage than what they should have.
+Weapons made from the same materials may have variation in all the parameters.
