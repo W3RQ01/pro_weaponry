@@ -295,10 +295,58 @@ minetest.register_tool("pro_weaponry:hammer_stone", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:hammer_diamond",
+        output = "pro_weaponry:hammer_stone",
         recipe = {
                 {'default:cobble','default:cobble','default:cobble'},
                 {'default:cobble','default:cobble','default:cobble'},
                 {'','pro_weaponry:handle',''},
+	}
+})	
+
+
+minetest.register_tool("pro_weaponry:katana_diamond", {
+	description = "Diamond Katana",
+	inventory_image = "katana_diamond.png",
+	wield_scale = {x=1, y=2, z=1},
+	tool_capabilities = {
+		full_punch_interval = 1,
+		max_drop_level=3,
+		groupcaps={
+			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
+		},
+		damage_groups = {fleshy=17},
+	},
+	sound = {breaks = "default_tool_breaks"},
+})
+minetest.register_craft({
+        output = "pro_weaponry:katana_diamond",
+        recipe = {
+                {'','','default:diamond'},
+                {'','default:diamond',''},
+                {'pro_weaponry:handle','',''},
+	}
+})	
+
+
+minetest.register_tool("pro_weaponry:katana_mese", {
+	description = "Mese Katana",
+	inventory_image = "katana_mese.png",
+	wield_scale = {x=1, y=2, z=1},
+	tool_capabilities = {
+		full_punch_interval = 1,
+		max_drop_level=3,
+		groupcaps={
+			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=120, maxlevel=3},
+		},
+		damage_groups = {fleshy=15},
+	},
+	sound = {breaks = "default_tool_breaks"},
+})
+minetest.register_craft({
+        output = "pro_weaponry:katana_mese",
+        recipe = {
+                {'','','default:mese_crystal'},
+                {'','default:mese_crystal',''},
+                {'pro_weaponry:handle','',''},
 	}
 })	
