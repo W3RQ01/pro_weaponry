@@ -117,12 +117,12 @@ minetest.register_tool("pro_weaponry:saber_diamond", {
 	inventory_image = "saber_diamond.png",
 	wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 1,
+		full_punch_interval = 0.75,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
 		},
-		damage_groups = {fleshy=17},
+		damage_groups = {fleshy=16},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
@@ -141,12 +141,12 @@ minetest.register_tool("pro_weaponry:saber_mese", {
 	inventory_image = "saber_mese.png",
 	wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 1,
+		full_punch_interval = 0.75,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=120, maxlevel=3},
 		},
-		damage_groups = {fleshy=15},
+		damage_groups = {fleshy=14},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
@@ -165,12 +165,12 @@ minetest.register_tool("pro_weaponry:saber_iron", {
 	inventory_image = "saber_iron.png",
 	wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 1,
+		full_punch_interval = 0.75,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=105, maxlevel=3},
 		},
-		damage_groups = {fleshy=13},
+		damage_groups = {fleshy=12},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
@@ -189,12 +189,12 @@ minetest.register_tool("pro_weaponry:saber_stone", {
 	inventory_image = "saber_stone.png",
 	wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 1,
+		full_punch_interval = 0.75,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=90, maxlevel=3},
 		},
-		damage_groups = {fleshy=10},
+		damage_groups = {fleshy=9},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
@@ -213,12 +213,12 @@ minetest.register_tool("pro_weaponry:hammer_diamond", {
 	inventory_image = "hammer_diamond.png",
 	wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 1,
+		full_punch_interval = 2,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
 		},
-		damage_groups = {fleshy=17},
+		damage_groups = {fleshy=22},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
@@ -237,12 +237,12 @@ minetest.register_tool("pro_weaponry:hammer_mese", {
 	inventory_image = "hammer_mese.png",
 	wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 1,
+		full_punch_interval = 2,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=120, maxlevel=3},
 		},
-		damage_groups = {fleshy=15},
+		damage_groups = {fleshy=18.5},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
@@ -261,12 +261,12 @@ minetest.register_tool("pro_weaponry:hammer_iron", {
 	inventory_image = "hammer_iron.png",
 	wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 1,
+		full_punch_interval = 2,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=105, maxlevel=3},
 		},
-		damage_groups = {fleshy=13},
+		damage_groups = {fleshy=15},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
@@ -285,12 +285,12 @@ minetest.register_tool("pro_weaponry:hammer_stone", {
 	inventory_image = "hammer_stone.png",
 	wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 1,
+		full_punch_interval = 2,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=90, maxlevel=3},
 		},
-		damage_groups = {fleshy=10},
+		damage_groups = {fleshy=11.5},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
