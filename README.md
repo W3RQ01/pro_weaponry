@@ -1,4 +1,4 @@
 # pro_weaponry
 Modpack that aims to provide professional weapons to minetest.
 
-This branch is not supposed to be stable, all the new stuff gets tested here and then pushed to the main branch
+Issues can be seen and reported here or on the notabug mirror (https://notabug.org/W3RQ01/pro_weaponry)
