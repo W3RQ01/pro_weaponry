@@ -15,7 +15,24 @@ minetest.register_craft({
                 {'','',''},
 	}
 })		
-		
+
+
+minetest.register_tool("pro_weaponry:pole", {
+	description = "Pole",
+	inventory_image = "pole.png",
+	wield_image = "pole.png",
+	stack_max = 99,
+})
+minetest.register_craft({
+        output = "pro_weaponry:handle",
+        recipe = {
+                {'','','default:stick'},
+                {'','pro_weaponry:handle',''},
+                {'default:stick','',''},
+	}
+})		
+
+
 minetest.register_tool("pro_weaponry:longsword_diamond", {
 	description = "Diamond Longsword",
 	inventory_image = "longsword_diamond.png",
@@ -247,7 +264,7 @@ minetest.register_tool("pro_weaponry:hammer_mese", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:hammer_diamond",
+        output = "pro_weaponry:hammer_mese",
         recipe = {
                 {'default:mese_crystal','default:mese_crystal','default:mese_crystal'},
                 {'default:mese_crystal','default:mese_crystal','default:mese_crystal'},
@@ -350,3 +367,99 @@ minetest.register_craft({
                 {'pro_weaponry:handle','',''},
 	}
 })	
+
+
+minetest.register_tool("pro_weaponry:katana_iron", {
+	description = "Iron Katana",
+	inventory_image = "katana_iron.png",
+	wield_scale = {x=1, y=2, z=1},
+	tool_capabilities = {
+		full_punch_interval = 0.5,
+		max_drop_level=3,
+		groupcaps={
+			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=105, maxlevel=3},
+		},
+		damage_groups = {fleshy=12},
+	},
+	sound = {breaks = "default_tool_breaks"},
+})
+minetest.register_craft({
+        output = "pro_weaponry:katana_iron",
+        recipe = {
+                {'','','default:iron_ingot'},
+                {'','default:iron_ingot',''},
+                {'pro_weaponry:handle','',''},
+	}
+})
+
+
+minetest.register_tool("pro_weaponry:katana_wood", {
+	description = "Wood Katana",
+	inventory_image = "katana_wood.png",
+	wield_scale = {x=1, y=2, z=1},
+	tool_capabilities = {
+		full_punch_interval = 0.5,
+		max_drop_level=3,
+		groupcaps={
+			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=40, maxlevel=3},
+		},
+		damage_groups = {fleshy=6.5},
+	},
+	sound = {breaks = "default_tool_breaks"},
+})
+minetest.register_craft({
+        output = "pro_weaponry:katana_wood",
+        recipe = {
+                {'','','default:wood'},
+                {'','default:wood',''},
+                {'pro_weaponry:handle','',''},
+	}
+})
+
+
+minetest.register_tool("pro_weaponry:halberd_diamond", {
+	description = "Diamond Halberd",
+	inventory_image = "halberd_diamond.png",
+	wield_scale = {x=2, y=3, z=1},
+	tool_capabilities = {
+		full_punch_interval = 1.7,
+		max_drop_level=3,
+		groupcaps={
+			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
+		},
+		damage_groups = {fleshy=20.5},
+	},
+	sound = {breaks = "default_tool_breaks"},
+})
+minetest.register_craft({
+        output = "pro_weaponry:halberd_diamond",
+        recipe = {
+                {'','','default:diamond'},
+                {'default:diamond','default:diamond',''},
+                {'default:diamond','pro_weaponry:pole',''},
+	}
+})	
+
+
+minetest.register_tool("pro_weaponry:halberd_mese", {
+	description = "Mese Halberd",
+	inventory_image = "halberd_mese.png",
+	wield_scale = {x=2, y=3, z=1},
+	tool_capabilities = {
+		full_punch_interval = 1.7,
+		max_drop_level=3,
+		groupcaps={
+			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
+		},
+		damage_groups = {fleshy=17},
+	},
+	sound = {breaks = "default_tool_breaks"},
+})
+minetest.register_craft({
+        output = "pro_weaponry:halberd_mese",
+        recipe = {
+                {'','','default:mese_crystal'},
+                {'default:mese_crystal','default:mese_crystal',''},
+                {'default:mese_crystal','pro_weaponry:pole',''},
+	}
+})
