@@ -24,10 +24,59 @@ minetest.register_tool("pro_weaponry_tools:pole", {
 	stack_max = 99,
 })
 minetest.register_craft({
-        output = "pro_weaponry_tools:handle",
+        output = "pro_weaponry_tools:pole",
         recipe = {
                 {'','','default:stick'},
-                {'','pro_weaponry:handle',''},
+                {'','pro_weaponry_tools:handle',''},
                 {'default:stick','',''},
+	}
+})
+
+
+minetest.register_tool("pro_weaponry_tools:metal_handle", {
+	description = "Metal Pandle",
+	inventory_image = "metal_handle.png",
+	wield_image = "metal_handle.png",
+	stack_max = 99,
+})
+minetest.register_craft({
+	output = "pro_weaponry_tools:metal_handle",,
+	recipe = {
+		{'','',''},
+		{'','default:iron_ingot','pro_weaponry_tools:rubber_grip'},
+		{'','',''},
+	}
+})
+
+
+minetest.register_tool("pro_weaponry_tools:metal_pole", {
+	description = "Metal Pole",
+	inventory_image = "metal_pole.png",
+	wield_image = "metal_pole.png",
+	stack_max = 99,
+})
+minetest.register_craft({
+	output = "pro_weaponry_tools:metal_pole",,
+	recipe = {
+		{'','','default:iron_ingot'},
+		{'','pro_weaponry_tools:metal_pole',''},
+		{'default:iron_ingot','',''},
+	}
+})
+
+
+
+minetest.register_tool("pro_weaponry_tools:rubber_grip", {
+	description = "Rubber Grip",
+	inventory_image = "rubber_grip.png",
+	wield_image = "rubber_grip.png",
+	stack_max = 99,
+})
+minetest.register_craft({
+	output = "pro_weaponry_tools:rubber_grip",,
+	recipe = {
+		{'','',''},
+		{'','default:clay_lump','default:coal_lump'},
+		{'','',''},
 	}
 })
