@@ -1,7 +1,7 @@
 -- Author: W3RQ01
 -- License: GPL 3.0
 
-minetest.register_tool("pro_weaponry:hammer_diamond", {
+minetest.register_tool("pro_weaponry_bhammers:hammer_diamond", {
 	description = "Diamond Battlehammer",
 	inventory_image = "hammer_diamond.png",
 	wield_scale = {x=2, y=3, z=1},
@@ -16,7 +16,7 @@ minetest.register_tool("pro_weaponry:hammer_diamond", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:hammer_diamond",
+        output = "pro_weaponry_bhammers:hammer_diamond",
         recipe = {
                 {'default:diamond','default:diamond','default:diamond'},
                 {'default:diamond','default:diamond','default:diamond'},
@@ -25,7 +25,7 @@ minetest.register_craft({
 })	
 
 
-minetest.register_tool("pro_weaponry:hammer_mese", {
+minetest.register_tool("pro_weaponry_bhammers:hammer_mese", {
 	description = "Mese Battlehammer",
 	inventory_image = "hammer_mese.png",
 	wield_scale = {x=2, y=3, z=1},
@@ -40,7 +40,7 @@ minetest.register_tool("pro_weaponry:hammer_mese", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:hammer_mese",
+        output = "pro_weaponry_bhammers:hammer_mese",
         recipe = {
                 {'default:mese_crystal','default:mese_crystal','default:mese_crystal'},
                 {'default:mese_crystal','default:mese_crystal','default:mese_crystal'},
@@ -49,7 +49,7 @@ minetest.register_craft({
 })	
 
 
-minetest.register_tool("pro_weaponry:hammer_iron", {
+minetest.register_tool("pro_weaponry_bhammers:hammer_iron", {
 	description = "Iron Battlehammer",
 	inventory_image = "hammer_iron.png",
 	wield_scale = {x=2, y=3, z=1},
@@ -64,7 +64,7 @@ minetest.register_tool("pro_weaponry:hammer_iron", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:hammer_diamond",
+        output = "pro_weaponry_bhammers:hammer_iron",
         recipe = {
                 {'default:iron_ingot','default:iron_ingot','default:iron_ingot'},
                 {'default:iron_ingot','default:iron_ingot','default:iron_ingot'},
@@ -73,7 +73,7 @@ minetest.register_craft({
 })	
 
 
-minetest.register_tool("pro_weaponry:hammer_stone", {
+minetest.register_tool("pro_weaponry_bhammers:hammer_stone", {
 	description = "Stone Battlehammer",
 	inventory_image = "hammer_stone.png",
 	wield_scale = {x=2, y=3, z=1},
@@ -88,7 +88,7 @@ minetest.register_tool("pro_weaponry:hammer_stone", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:hammer_stone",
+        output = "pro_weaponry_bhammers:hammer_stone",
         recipe = {
                 {'default:cobble','default:cobble','default:cobble'},
                 {'default:cobble','default:cobble','default:cobble'},
