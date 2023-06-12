@@ -1,7 +1,7 @@
 -- Author: W3RQ01
 -- License: GPL 3.0
 
-minetest.register_tool("pro_weaponry:halberd_diamond", {
+minetest.register_tool("pro_weaponry_halberds:halberd_diamond", {
 	description = "Diamond Halberd",
 	inventory_image = "halberd_diamond.png",
 	wield_scale = {x=2, y=3, z=1},
@@ -16,7 +16,7 @@ minetest.register_tool("pro_weaponry:halberd_diamond", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:halberd_diamond",
+        output = "pro_weaponry_halberds:halberd_diamond",
         recipe = {
                 {'','','default:diamond'},
                 {'default:diamond','default:diamond',''},
@@ -25,7 +25,7 @@ minetest.register_craft({
 })	
 
 
-minetest.register_tool("pro_weaponry:halberd_mese", {
+minetest.register_tool("pro_weaponry_halberds:halberd_mese", {
 	description = "Mese Halberd",
 	inventory_image = "halberd_mese.png",
 	wield_scale = {x=2, y=3, z=1},
@@ -40,7 +40,7 @@ minetest.register_tool("pro_weaponry:halberd_mese", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:halberd_mese",
+        output = "pro_weaponry_halberds:halberd_mese",
         recipe = {
                 {'','','default:mese_crystal'},
                 {'default:mese_crystal','default:mese_crystal',''},
@@ -49,7 +49,7 @@ minetest.register_craft({
 })
 
 
-minetest.register_tool("pro_weaponry:halberd_iron", {
+minetest.register_tool("pro_weaponry_halberds:halberd_iron", {
 	description = "Iron Halberd",
 	inventory_image = "halberd_iron.png",
 	wield_scale = {x=2, y=3, z=1},
@@ -64,7 +64,7 @@ minetest.register_tool("pro_weaponry:halberd_iron", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:halberd_iron",
+        output = "pro_weaponry_halberds:halberd_iron",
         recipe = {
                 {'','','default:iron_ingot'},
                 {'default:iron_ingot','default:iron_ingot',''},
@@ -73,7 +73,7 @@ minetest.register_craft({
 })
 
 
-minetest.register_tool("pro_weaponry:halberd_stone", {
+minetest.register_tool("pro_weaponry_halberds:halberd_stone", {
 	description = "Stone Halberd",
 	inventory_image = "halberd_stone.png",
 	wield_scale = {x=2, y=3, z=1},
@@ -88,7 +88,7 @@ minetest.register_tool("pro_weaponry:halberd_stone", {
 	sound = {breaks = "default_tool_breaks"},
 })
 minetest.register_craft({
-        output = "pro_weaponry:halberd_stone",
+        output = "pro_weaponry_halberds:halberd_stone",
         recipe = {
                 {'','','default:cobble'},
                 {'default:cobble','default:cobble',''},
