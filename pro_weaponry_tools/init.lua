@@ -34,13 +34,13 @@ minetest.register_craft({
 
 
 minetest.register_tool("pro_weaponry_tools:metal_handle", {
-	description = "Metal Pandle",
+	description = "Metal Handle",
 	inventory_image = "metal_handle.png",
 	wield_image = "metal_handle.png",
 	stack_max = 99,
 })
 minetest.register_craft({
-	output = "pro_weaponry_tools:metal_handle",,
+	output = "pro_weaponry_tools:metal_handle",
 	recipe = {
 		{'','',''},
 		{'','default:iron_ingot','pro_weaponry_tools:rubber_grip'},
@@ -56,7 +56,7 @@ minetest.register_tool("pro_weaponry_tools:metal_pole", {
 	stack_max = 99,
 })
 minetest.register_craft({
-	output = "pro_weaponry_tools:metal_pole",,
+	output = "pro_weaponry_tools:metal_pole",
 	recipe = {
 		{'','','default:iron_ingot'},
 		{'','pro_weaponry_tools:metal_pole',''},
@@ -73,7 +73,7 @@ minetest.register_tool("pro_weaponry_tools:rubber_grip", {
 	stack_max = 99,
 })
 minetest.register_craft({
-	output = "pro_weaponry_tools:rubber_grip",,
+	output = "pro_weaponry_tools:rubber_grip",
 	recipe = {
 		{'','',''},
 		{'','default:clay_lump','default:coal_lump'},
