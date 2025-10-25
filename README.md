@@ -1,5 +1,5 @@
 # pro_weaponry
-Modpack that aims to provide professional weapons to minetest.
+Modpack that aims to provide professional weapons to minetest. This branch just has a history purpose of representing how the mod was during active development stages
 
 **WEAPONS LIST**
 
