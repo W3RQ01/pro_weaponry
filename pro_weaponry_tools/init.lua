@@ -64,8 +64,6 @@ minetest.register_craft({
 	}
 })
 
-
-
 minetest.register_tool("pro_weaponry_tools:rubber_grip", {
 	description = "Rubber Grip",
 	inventory_image = "rubber_grip.png",
