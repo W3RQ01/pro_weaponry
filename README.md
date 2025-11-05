@@ -7,13 +7,14 @@ Whether you favor speed or raw impact, this mod expands your combat options and 
 ---
 
 ## 🗡️ Features  
-- Adds **six distinct weapon types** to Minetest:  
+- Adds **seven distinct weapon types** to Minetest:  
   - Battlehammers  
   - Halberds  
   - Daggers  
   - Katanas  
   - Longswords  
-  - Sabers  
+  - Sabers 
+  - Schytes 
 - Each weapon has unique **combat stats** — reach, damage, speed, and durability.  
 - Includes **miscellaneous crafting items** (handles, poles, bindings) for creating weapons.  
 - Balanced for both **survival** and **PvP** gameplay.
