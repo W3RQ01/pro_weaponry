@@ -64,7 +64,7 @@ minetest.register_craft({
         output = "pro_weaponry_daggers:dagger_iron",
         recipe = {
                 {'','',''},
-                {'','default:iron_ingot',''},
+                {'','default:steel_ingot',''},
                 {'','pro_weaponry_tools:handle',''},
 	}
 })

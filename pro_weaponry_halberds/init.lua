@@ -66,9 +66,9 @@ minetest.register_tool("pro_weaponry_halberds:halberd_iron", {
 minetest.register_craft({
         output = "pro_weaponry_halberds:halberd_iron",
         recipe = {
-                {'','','default:iron_ingot'},
-                {'default:iron_ingot','default:iron_ingot',''},
-                {'default:iron_ingot','pro_weaponry_tools:pole',''},
+                {'','','default:steel_ingot'},
+                {'default:steel_ingot','default:steel_ingot',''},
+                {'default:steel_ingot','pro_weaponry_tools:pole',''},
 	}
 })
 

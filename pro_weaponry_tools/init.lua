@@ -43,7 +43,7 @@ minetest.register_craft({
 	output = "pro_weaponry_tools:metal_handle",
 	recipe = {
 		{'','',''},
-		{'','default:iron_ingot','pro_weaponry_tools:rubber_grip'},
+		{'','default:steel_ingot','pro_weaponry_tools:rubber_grip'},
 		{'','',''},
 	}
 })
@@ -58,9 +58,9 @@ minetest.register_tool("pro_weaponry_tools:metal_pole", {
 minetest.register_craft({
 	output = "pro_weaponry_tools:metal_pole",
 	recipe = {
-		{'','','default:iron_ingot'},
-		{'','pro_weaponry_tools:metal_pole',''},
-		{'default:iron_ingot','',''},
+		{'','','default:steel_ingot'},
+		{'','pro_weaponry_tools:metal_handle',''},
+		{'default:steel_ingot','',''},
 	}
 })
 

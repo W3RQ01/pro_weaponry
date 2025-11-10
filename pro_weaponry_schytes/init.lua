@@ -4,7 +4,7 @@
 
 minetest.register_tool("pro_weaponry_schytes:schyte_diamond", {
 	description = "Diamond Schyte",
-	inventory_image = "schyte_diamond.png",
+	inventory_image = "scythe_diamond.png",
     wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
 		full_punch_interval = 2,
@@ -27,7 +27,7 @@ minetest.register_craft({
 
 minetest.register_tool("pro_weaponry_schytes:schyte_mese", {
 	description = "Mese Schyte",
-	inventory_image = "schyte_mese.png",
+	inventory_image = "scythe_mese.png",
     wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
 		full_punch_interval = 2,
@@ -50,7 +50,7 @@ minetest.register_craft({
 
 minetest.register_tool("pro_weaponry_schytes:schyte_iron", {
 	description = "Iron Schyte",
-	inventory_image = "schyte_iron.png",
+	inventory_image = "scythe_iron.png",
     wield_scale = {x=2, y=3, z=1},
 	tool_capabilities = {
 		full_punch_interval = 2,
@@ -65,7 +65,7 @@ minetest.register_tool("pro_weaponry_schytes:schyte_iron", {
 minetest.register_craft({
         output = "pro_weaponry_schytes:schyte_iron",
         recipe = {
-                {'default:iron_ingot','default:iron_ingot',''},
+                {'default:steel_ingot','default:steel_ingot',''},
                 {'','pro_weaponry_tools:handle',''},
                 {'','pro_weaponry_tools:handle',''},
 	}
